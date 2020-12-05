@@ -2,13 +2,13 @@
   "name": "fuzzytrader-app",
   "description": "Web application to simulate the development of an asset and cryptocurrencies portfolio.",
   "version": "0.1.0",
+  "main": "server.js",
   "engines": {
     "node": "12.16.3"
-  }
+  },
   "scripts": {
-    "start": "node",
     "test": "jest"
-  }
+  },
   "devDependencies": {
     "jest": "^25.4.0"
   }
