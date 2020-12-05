@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "main": "server.js",
   "engines": {
-    "node": "12.16.3"
+    "node": "12.16.3",
+    "npm": "6.x"
   },
   "scripts": {
     "test": "jest"
