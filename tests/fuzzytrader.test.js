@@ -1,4 +1,4 @@
-const math = require('../fuzzytrader')
+const math = require('../fuzzytrader').calctotalTip
 
 test('Teste env var', () => {
 	expect(process.env.URL_CRIPTO).toBe('https://apiv2.bitcoinaverage.com/indices/global/ticker/all?symbols=')
