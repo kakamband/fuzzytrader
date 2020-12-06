@@ -14,7 +14,7 @@ test('Total calculation with default tip', () => {
 	expect(total).toBe(12)
 })
 
-jest.mock('../bd');
+jest.mock('../db');
 const getDBURL = require('../db').getDBURL
 
 test('Teste URL mock', () => {
