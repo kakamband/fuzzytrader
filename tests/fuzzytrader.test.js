@@ -10,3 +10,7 @@ test('Total calculation with default tip', () => {
 	expect(total).toBe(12)
 })
 
+test('URL teste env var', () => {
+	expect(process.env.PARAM1).toBeDefined()
+})
+
