@@ -1,7 +1,6 @@
 const math = require('../fuzzytrader')
 
 test('Teste env var', () => {
-	expect(process.env.NODE_ENV).toBe('test')
 	expect(process.env.URL_CRIPTO).toBe('https://apiv2.bitcoinaverage.com/indices/global/ticker/all?symbols=')
 })
 
