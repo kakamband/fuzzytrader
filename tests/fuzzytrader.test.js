@@ -12,5 +12,6 @@ test('Total calculation with default tip', () => {
 
 test('Teste env var', () => {
 	expect(process.env.NODE_ENV).toBeDefined()
+	expect(process.env.PARAM1).toBeDefined()
 })
 
