@@ -20,3 +20,4 @@ const getDBURL = require('../fuzzytrader').getDBURL
 
 test('Teste URL mock', () => {
 	expect(getDBURL).toBe(1)
+})
