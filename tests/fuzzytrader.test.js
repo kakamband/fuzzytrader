@@ -1,3 +1,5 @@
+jest.mock('../fuzzytrader');
+
 const math = require('../fuzzytrader').calctotalTip
 
 test('Teste env var', () => {
@@ -14,3 +16,7 @@ test('Total calculation with default tip', () => {
 	expect(total).toBe(12)
 })
 
+const getDBURL = require('../fuzzytrader').getDBURL
+
+test('Teste URL mock', () => {
+	expect(getDBURL).toBe(1)
