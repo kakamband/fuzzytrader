@@ -4,10 +4,4 @@
       "test": "jest"
     }
   }
-},
-"env": {
-  "PARAM1": {
-    "description": "The number of processes to run.",
-    "value": "23fsdf5"
-  }
 }
