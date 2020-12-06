@@ -18,7 +18,7 @@ jest.mock('../db');
 const getDBURL = require('../db').getDBURL
 
 // foo is a mock function
-getDBURL.mockImplementation(() => 1);
+getDBURL.mockImplementation(() => 3);
 
 test('Teste URL mock', () => {
 	expect(getDBURL()).toBe(1)
