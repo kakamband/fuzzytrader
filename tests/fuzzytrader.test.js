@@ -19,5 +19,5 @@ test('Total calculation with default tip', () => {
 const getDBURL = require('../fuzzytrader').getDBURL
 
 test('Teste URL mock', () => {
-	expect(getDBURL).toBe(1)
+	expect(getDBURL()).toBe(1)
 })
