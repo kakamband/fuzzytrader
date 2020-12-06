@@ -3,4 +3,6 @@ const calctotalTip = (total, tipPercent = 0.2) => {
 	return total + tip
 }
 
-module.exports = calctotalTip
+module.exports = {
+	calctotalTip
+}
