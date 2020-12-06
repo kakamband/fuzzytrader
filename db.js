@@ -6,4 +6,4 @@ module.exports = getDBURL
 function getDBKey() {
   return 333
 }
-module.exports = getDBKey
+module.exports = {getDBURL, getDBKey}
