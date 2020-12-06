@@ -17,6 +17,9 @@ test('Total calculation with default tip', () => {
 jest.mock('../db');
 const getDBURL = require('../db').getDBURL
 
+// foo is a mock function
+getDBURL.mockImplementation(() => 1);
+
 test('Teste URL mock', () => {
 	expect(getDBURL()).toBe(1)
 })
