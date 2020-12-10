@@ -1,6 +1,4 @@
-const calctotalTip = (total, tipPercent = 0.2) => {
-	const tip = total * tipPercent
-	return total + tip
-}
+//const getPortfolio = () => {
 
-module.exports = {calctotalTip}
+
+module.exports = {getPortfolio}
